@@ -7,7 +7,7 @@ body {
   width: cover;
   height: cover;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
   display: grid;
 }
 
@@ -148,7 +148,7 @@ li.dropdown {
 	
 .j	{
 	  grid-column-start: 2;
-	  grid-column-end: span 1;
+	  grid-column-end: span 2;
 	  grid-row-start: 9;
 	  grid-row-end: span 8;
 	  font-family:Georgia;
@@ -157,7 +157,7 @@ li.dropdown {
 }
 	 
 .k	{
-	  grid-column-start: 3;
+	  grid-column-start: 4;
 	  grid-column-end: span 1;
 	  grid-row-start: 9;
 	  grid-row-end: span 8;
@@ -167,48 +167,51 @@ li.dropdown {
 }
 	 
 .l	{
-	  grid-column-start: 4;
-	  grid-column-end: span 1;
-	  grid-row-start: 9;
-	  grid-row-end: span 8;
+	  grid-column-start: 1;
+	  grid-column-end: span 4;
+	  grid-row-start: 12;
+	  grid-row-end: span 14;
 	  font-family:Georgia;
 	  font-size: 20px;
 	  color:white;
 }
+
+
+
 .m	{
-	  grid-column-start: 2;
-	  grid-column-end: span 2;
-	  grid-row-start: 12;
-	  grid-row-end: span 12;
+	  grid-column-start: 1;
+	  grid-column-end: span 1;
+	  grid-row-start: 15;
+	  grid-row-end: span 20;
 	  font-family:Georgia;
 	  font-size:20px;
 	  color:white;
 }
 .n	{
-	 grid-column-start: 4;
-	 grid-column-end: span 1;
-	 grid-row-start: 12;
-	 grid-row-end: span 12;
+	 grid-column-start: 2;
+	 grid-column-end: span 2;
+	 grid-row-start: 15;
+	 grid-row-end: span 20;
 	 font-family:Georgia;
 	 font-size:20px;
 	 color: white;
 }
 
 .o	{
-	 grid-column-start: 1;
+	 grid-column-start: 4;
 	 grid-column-end: span 1;
-	 grid-row-start: 12;
-	 grid-row-end: span 12;
+	 grid-row-start: 15;
+	 grid-row-end: span 20;
 	 font-family:Georgia;
 	 font-size: 20px;
 	 color:white;
 }
 
 .p	{
-	 grid-column-start: 2;
-	 grid-column-end: span 2;
-	 grid-row-start: 12;
-	 grid-row-end: span 12;
+	 grid-column-start: 1;
+	 grid-column-end: span 4;
+	 grid-row-start: 18;
+	 grid-row-end: span 24;
 	 font-family:Georgia;
 	 font-size:20px;
 	 color:white;
