@@ -1,0 +1,215 @@
+body {
+   background: url("images/ogmaptwotimes.jpg");
+   cursor: url(http://cur.cursors-4u.net/cursors/cur-10/cur952.png), auto;
+}
+.grid {
+  border: 2px black solid;
+  width: cover;
+  height: cover;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  display: grid;
+}
+
+.box {
+  color: black;
+  border-radius: 1px;
+  border: 1px black solid;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.a	{
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	font-family:Georgia;
+	font-size:40px;
+	color: white;
+}
+
+.b	{     
+	  grid-column-start: 1;
+	  grid-column-end: span 4;
+	  grid-row-start: 2;
+	  grid-row-end: span 2;
+}
+
+.c	{
+	  grid-column-start: 1;
+	  grid-column-end: span 2;
+	  grid-row-start: 4;
+	  grid-row-end: span 2;
+	  font-family:Georgia;
+	  font-size: 20px;
+	  color: white;
+}
+
+.d  {
+      grid-column-start: 3;
+	  grid-column-end: span 4;
+	  grid-row-start: 4;
+	  grid-row-end: span 4;
+	  font-family:Georgia;
+	  font-size: 20px;
+	  color: white;
+}
+
+
+
+.f	{
+	  grid-column-start: 1;
+	  grid-column-end: span 4;
+	  grid-row-start: 1;
+	  grid-row-end: span 1;
+	  font-family:Georgia;
+	  font-size: 30px;
+	  color: white;
+ }
+ 
+.g	{
+	  grid-column-start: 1;
+	  grid-column-end: span 4;
+	  grid-row-start: 2;
+	  grid-row-end: span 4;
+}
+  
+.h	{
+	  grid-column-start: 1;
+	  grid-column-end: span 4;
+	  grid-row-start: 6;
+	  grid-row-end: span 2;
+	  font-family:Georgia;
+	  font-size: 20px;
+	  color: white;
+}
+   
+   
+   
+.i	{
+	  grid-column-start: 1;
+	  grid-column-end: span 1;
+	  grid-row-start: 9;
+	  grid-row-end: span 8;
+	  font-family:Georgia;
+	  font-size: 20px;
+	  color:white;
+}
+	
+.j	{
+	  grid-column-start: 2;
+	  grid-column-end: span 1;
+	  grid-row-start: 9;
+	  grid-row-end: span 8;
+	  font-family:Georgia;
+	  font-size:20px;
+	  color:white;
+}
+	 
+.k	{
+	  grid-column-start: 3;
+	  grid-column-end: span 1;
+	  grid-row-start: 9;
+	  grid-row-end: span 8;
+	  font-family:Georgia;
+	  font-size:20px;
+	  color: white;
+}
+	 
+.l	{
+	  grid-column-start: 4;
+	  grid-column-end: span 1;
+	  grid-row-start: 9;
+	  grid-row-end: span 8;
+	  font-family:Georgia;
+	  font-size: 20px;
+	  color:white;
+}
+.m	{
+	  grid-column-start: 2;
+	  grid-column-end: span 2;
+	  grid-row-start: 12;
+	  grid-row-end: span 12;
+	  font-family:Georgia;
+	  font-size:20px;
+	  color:white;
+}
+.n	{
+	 grid-column-start: 4;
+	 grid-column-end: span 1;
+	 grid-row-start: 12;
+	 grid-row-end: span 12;
+	 font-family:Georgia;
+	 font-size:20px;
+	 color: white;
+}
+
+.o	{
+	 grid-column-start: 1;
+	 grid-column-end: span 1;
+	 grid-row-start: 12;
+	 grid-row-end: span 12;
+	 font-family:Georgia;
+	 font-size: 20px;
+	 color:white;
+}
+
+.p	{
+	 grid-column-start: 2;
+	 grid-column-end: span 2;
+	 grid-row-start: 12;
+	 grid-row-end: span 12;
+	 font-family:Georgia;
+	 font-size:20px;
+	 color:white;
+)
