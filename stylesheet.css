@@ -7,7 +7,7 @@ body {
   width: cover;
   height: cover;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-rows: repeat(1, 1fr);
   display: grid;
 }
 
@@ -89,7 +89,7 @@ li.dropdown {
 	  grid-column-start: 1;
 	  grid-column-end: span 2;
 	  grid-row-start: 4;
-	  grid-row-end: span 2;
+	  grid-row-end: span 4;
 	  font-family:Georgia;
 	  font-size: 20px;
 	  color: white;
@@ -105,8 +105,6 @@ li.dropdown {
 	  color: white;
 }
 
-
-
 .f	{
 	  grid-column-start: 1;
 	  grid-column-end: span 4;
@@ -121,26 +119,24 @@ li.dropdown {
 	  grid-column-start: 1;
 	  grid-column-end: span 4;
 	  grid-row-start: 2;
-	  grid-row-end: span 4;
+	  grid-row-end: span 1;
 }
   
 .h	{
 	  grid-column-start: 1;
 	  grid-column-end: span 4;
-	  grid-row-start: 6;
-	  grid-row-end: span 2;
+	  grid-row-start: 3;
+	  grid-row-end: span 1;
 	  font-family:Georgia;
 	  font-size: 20px;
 	  color: white;
 }
-   
-   
-   
+
 .i	{
 	  grid-column-start: 1;
 	  grid-column-end: span 1;
-	  grid-row-start: 9;
-	  grid-row-end: span 8;
+	  grid-row-start: 4;
+	  grid-row-end: span 1;
 	  font-family:Georgia;
 	  font-size: 20px;
 	  color:white;
@@ -149,8 +145,8 @@ li.dropdown {
 .j	{
 	  grid-column-start: 2;
 	  grid-column-end: span 2;
-	  grid-row-start: 9;
-	  grid-row-end: span 8;
+	  grid-row-start: 4;
+	  grid-row-end: span 1;
 	  font-family:Georgia;
 	  font-size:20px;
 	  color:white;
@@ -159,8 +155,8 @@ li.dropdown {
 .k	{
 	  grid-column-start: 4;
 	  grid-column-end: span 1;
-	  grid-row-start: 9;
-	  grid-row-end: span 8;
+	  grid-row-start: 4;
+	  grid-row-end: span 1;
 	  font-family:Georgia;
 	  font-size:20px;
 	  color: white;
@@ -169,8 +165,8 @@ li.dropdown {
 .l	{
 	  grid-column-start: 1;
 	  grid-column-end: span 4;
-	  grid-row-start: 12;
-	  grid-row-end: span 14;
+	  grid-row-start: 5;
+	  grid-row-end: span 1;
 	  font-family:Georgia;
 	  font-size: 20px;
 	  color:white;
@@ -181,8 +177,8 @@ li.dropdown {
 .m	{
 	  grid-column-start: 1;
 	  grid-column-end: span 1;
-	  grid-row-start: 15;
-	  grid-row-end: span 20;
+	  grid-row-start: 6;
+	  grid-row-end: span 1;
 	  font-family:Georgia;
 	  font-size:20px;
 	  color:white;
@@ -190,8 +186,8 @@ li.dropdown {
 .n	{
 	 grid-column-start: 2;
 	 grid-column-end: span 2;
-	 grid-row-start: 15;
-	 grid-row-end: span 20;
+	 grid-row-start: 6;
+	 grid-row-end: span 1;
 	 font-family:Georgia;
 	 font-size:20px;
 	 color: white;
@@ -200,8 +196,8 @@ li.dropdown {
 .o	{
 	 grid-column-start: 4;
 	 grid-column-end: span 1;
-	 grid-row-start: 15;
-	 grid-row-end: span 20;
+	 grid-row-start: 6;
+	 grid-row-end: span 1;
 	 font-family:Georgia;
 	 font-size: 20px;
 	 color:white;
@@ -210,8 +206,8 @@ li.dropdown {
 .p	{
 	 grid-column-start: 1;
 	 grid-column-end: span 4;
-	 grid-row-start: 18;
-	 grid-row-end: span 24;
+	 grid-row-start: 7;
+	 grid-row-end: span 1;
 	 font-family:Georgia;
 	 font-size:20px;
 	 color:white;
